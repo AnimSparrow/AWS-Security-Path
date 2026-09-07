@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-path.svg" width="820" alt="AWS Security — Writeups">
+  <img src="banner-path.svg" width="820" alt="AWS Security — Writeups">
 </p>
 
 <p align="center">
@@ -24,9 +24,9 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 | 01 | [First Steps Into AWS](01-first-steps-into-aws.md) | ✅ |
 | 02 | [Shared Responsibility Model](02-shared-responsibility-model.md) | ✅ |
 | 03 | [Introduction to IAM](03-introduction-to-iam.md) | ✅ |
-| 04 | Introduction to Cloud Networking | ⬜ |
-| 05 | Introduction to Cloud Computing | ⬜ |
-| 06 | Introduction to Cloud Storage | ⬜ |
+| 04 | [Introduction to Cloud Networking](04-introduction-to-cloud-networking.md) | ✅ |
+| 05 | [Introduction to Cloud Computing](05-introduction-to-cloud-computing.md) | ✅ |
+| 06 | [Introduction to Cloud Storage](06-introduction-to-cloud-storage.md) | ✅ |
 | 07 | Introduction to AWS Security Tools | ⬜ |
 | 08 | Topic Rewind Recap | 🔒 |
 
