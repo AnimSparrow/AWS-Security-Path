@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-cloud-computing.svg" width="820" alt="Introduction to Cloud Computing">
+  <img src="assets/banner-cloud-computing.svg" width="820" alt="Introduction to Cloud Computing">
 </p>
 
 <p align="center">
@@ -108,6 +108,6 @@ Moving on-prem → cloud is a mindset shift:
 
 <p align="center">
   <a href="README.md">
-    <img src="more_writeups.svg" width="360" alt="Back to AWS Security Path">
+    <img src="assets/more_writeups.svg" width="360" alt="Back to AWS Security Path">
   </a>
 </p>
