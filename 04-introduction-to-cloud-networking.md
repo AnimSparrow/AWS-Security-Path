@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-cloud-networking.svg" width="820" alt="Introduction to Cloud Networking">
+  <img src="assets/banner-cloud-networking.svg" width="820" alt="Introduction to Cloud Networking">
 </p>
 
 <p align="center">
@@ -107,6 +107,6 @@ curl http://<public-ip>          # web page serves the flag
 
 <p align="center">
   <a href="README.md">
-    <img src="more_writeups.svg" width="360" alt="Back to AWS Security Path">
+    <img src="assets/more_writeups.svg" width="360" alt="Back to AWS Security Path">
   </a>
 </p>
