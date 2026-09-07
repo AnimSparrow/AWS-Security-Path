@@ -10,37 +10,25 @@
 
 ---
 
-Notes and solutions from the TryHackMe **AWS** security path — one `.md` per room, grouped by module. Each writeup carries a short TL;DR, the key concepts worth keeping, a per-lab walkthrough where relevant, and the task answers.
+Notes and solutions from the TryHackMe **AWS** security path — one `.md` per room. Each writeup carries a short TL;DR, the key concepts worth keeping, a per-lab walkthrough where relevant, and the task answers.
 
 > [!NOTE]
 > Flags are **masked** on purpose (portfolio etiquette + platform rules). The reasoning is the point, not the copy-paste.
 
-## Progress
+## Module 1 · Welcome to AWS
 
-| Module | Room | Status |
-|---|---|:--:|
-| **01 · Welcome to AWS** | [First Steps Into AWS](01-welcome-to-aws/first-steps-into-aws.md) | ✅ |
-| **01 · Welcome to AWS** | [Shared Responsibility Model](01-welcome-to-aws/shared-responsibility-model.md) | ✅ |
-| **02 · Identity and Access Management** | [Introduction to IAM](02-identity-and-access-management/introduction-to-iam.md) | ✅ |
-| 03 · Network and Perimeter Defense | Introduction to Cloud Networking | ⬜ |
-| 04 · Securing Compute | Introduction to Cloud Computing | ⬜ |
-| 05 · Storage and Data Security | Introduction to Cloud Storage | ⬜ |
-| — · AWS Security Tools | Introduction to AWS Security Tools | ⬜ |
+> Cloud security starts with understanding the platform. A solid foundation across AWS core services, identity, networking, storage, and native security tooling.
 
-## Structure
-
-```text
-AWS-Security-Path/
-├── README.md
-├── assets/                          # shared graphics (path banner, button)
-├── 01-welcome-to-aws/
-│   ├── assets/                      # per-room banners
-│   ├── first-steps-into-aws.md
-│   └── shared-responsibility-model.md
-└── 02-identity-and-access-management/
-    ├── assets/
-    └── introduction-to-iam.md
-```
+| # | Room | Status |
+|:--:|---|:--:|
+| 01 | [First Steps Into AWS](01-first-steps-into-aws.md) | ✅ |
+| 02 | [Shared Responsibility Model](02-shared-responsibility-model.md) | ✅ |
+| 03 | [Introduction to IAM](03-introduction-to-iam.md) | ✅ |
+| 04 | Introduction to Cloud Networking | ⬜ |
+| 05 | Introduction to Cloud Computing | ⬜ |
+| 06 | Introduction to Cloud Storage | ⬜ |
+| 07 | Introduction to AWS Security Tools | ⬜ |
+| 08 | Topic Rewind Recap | 🔒 |
 
 ## Running theme so far
 
