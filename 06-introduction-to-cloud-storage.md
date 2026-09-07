@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-cloud-storage.svg" width="820" alt="Introduction to Cloud Storage">
+  <img src="assets/banner-cloud-storage.svg" width="820" alt="Introduction to Cloud Storage">
 </p>
 
 <p align="center">
