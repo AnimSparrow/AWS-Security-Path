@@ -27,8 +27,11 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 | 04 | [Introduction to Cloud Networking](04-introduction-to-cloud-networking.md) | ✅ |
 | 05 | [Introduction to Cloud Computing](05-introduction-to-cloud-computing.md) | ✅ |
 | 06 | [Introduction to Cloud Storage](06-introduction-to-cloud-storage.md) | ✅ |
-| 07 | Introduction to AWS Security Tools | ⬜ |
+| 07 | [Introduction to AWS Security Tools](07-introduction-to-aws-security-tools.md) | ✅ |
 | 08 | Topic Rewind Recap | 🔒 |
+
+> [!NOTE]
+> **Module 1 complete — 7/7 rooms.** All foundational rooms of *Welcome to AWS* are done. Topic Rewind Recap is the module's closing knowledge check.
 
 ## Running theme so far
 
