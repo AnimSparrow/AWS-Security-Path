@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-over-privileged-user.svg" width="820" alt="The Over-Privileged User">
+  <img src="assets/banner-over-privileged-user.svg" width="820" alt="The Over-Privileged User">
 </p>
 
 <p align="center">
