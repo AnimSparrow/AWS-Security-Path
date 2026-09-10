@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-forgotten-access-key.svg" width="820" alt="The Forgotten Access Key">
+  <img src="assets/banner-forgotten-access-key.svg" width="820" alt="The Forgotten Access Key">
 </p>
 
 <p align="center">
