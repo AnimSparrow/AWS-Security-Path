@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-path.svg" width="820" alt="AWS Security — Writeups">
+  <img src="assets/banner-path.svg" width="820" alt="AWS Security — Writeups">
 </p>
 
 <p align="center">
