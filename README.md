@@ -32,6 +32,20 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 > [!NOTE]
 > **Module 1 complete — 7/7 rooms.** All foundational rooms of *Welcome to AWS* are done. Topic Rewind Recap is the module's closing knowledge check.
 
+## Module 2 · Identity and Access Management
+
+> Identity is the new perimeter in the cloud. How misconfigured users, forgotten credentials, and overpowered roles become an attacker's easiest entry point.
+
+| # | Room | Status |
+|:--:|---|:--:|
+| 01 | [The Over-Privileged User](m2-01-the-over-privileged-user.md) | ✅ |
+| 02 | [The Forgotten Access Key](m2-02-the-forgotten-access-key.md) | ✅ |
+| 03 | [The Overpowered Role](m2-03-the-overpowered-role.md) | ✅ |
+| 04 | [The Silence of the IAMs](m2-04-the-silence-of-the-iams.md) | ✅ |
+
+> [!NOTE]
+> **Module 2 complete — 4/4 rooms.** Arc: over-privileged users → forgotten keys → overpowered roles → detection. Each room built on a real breach (Code Spaces, Uber, Capital One, Ubiquiti).
+
 ## Running theme so far
 
 Every room reinforces the same core idea: in the cloud, **identity, data, and configuration are always yours to secure**. Least privilege caps the blast radius; explicit deny wins every evaluation; and a leaked credential turns identity into the perimeter.
