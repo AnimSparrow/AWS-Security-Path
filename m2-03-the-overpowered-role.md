@@ -133,6 +133,6 @@ Extra hardening (the layer Capital One lacked): an `aws:SourceVpc` condition + a
 
 <p align="center">
   <a href="README.md">
-    <img src="more_writeups.svg" width="360" alt="Back to AWS Security Path">
+    <img src="assets/more_writeups.svg" width="360" alt="Back to AWS Security Path">
   </a>
 </p>
