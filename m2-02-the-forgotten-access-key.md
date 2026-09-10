@@ -124,6 +124,6 @@ aws sts assume-role --role-arn ...:role/DevS3ReadRole --serial-number ...:mfa/de
 
 <p align="center">
   <a href="README.md">
-    <img src="more_writeups.svg" width="360" alt="Back to AWS Security Path">
+    <img src="assets/more_writeups.svg" width="360" alt="Back to AWS Security Path">
   </a>
 </p>
