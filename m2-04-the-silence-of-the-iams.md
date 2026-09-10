@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-silence-of-the-iams.svg" width="820" alt="The Silence of the IAMs">
+  <img src="assets/banner-silence-of-the-iams.svg" width="820" alt="The Silence of the IAMs">
 </p>
 
 <p align="center">
@@ -122,6 +122,6 @@ aws cloudwatch put-metric-alarm --alarm-name iam-change-burst --metric-name IAMH
 
 <p align="center">
   <a href="README.md">
-    <img src="more_writeups.svg" width="360" alt="Back to AWS Security Path">
+    <img src="assets/more_writeups.svg" width="360" alt="Back to AWS Security Path">
   </a>
 </p>
