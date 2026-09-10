@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner-overpowered-role.svg" width="820" alt="The Overpowered Role">
+  <img src="assets/banner-overpowered-role.svg" width="820" alt="The Overpowered Role">
 </p>
 
 <p align="center">
