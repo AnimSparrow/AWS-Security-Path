@@ -19,8 +19,8 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 
 > Cloud security starts with understanding the platform. A solid foundation across AWS core services, identity, networking, storage, and native security tooling.
 
-| # | Room | Status |
-|:--:|---|:--:|
+| #  | Room | Status |
+| --- | ---- | ------ |
 | 01 | [First Steps Into AWS](01-first-steps-into-aws.md) | ✅ |
 | 02 | [Shared Responsibility Model](02-shared-responsibility-model.md) | ✅ |
 | 03 | [Introduction to IAM](03-introduction-to-iam.md) | ✅ |
@@ -36,8 +36,8 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 
 > Identity is the new perimeter in the cloud. How misconfigured users, forgotten credentials, and overpowered roles become an attacker's easiest entry point.
 
-| # | Room | Status |
-|:--:|---|:--:|
+| #  | Room | Status |
+| --- | ---- | ------ |
 | 01 | [The Over-Privileged User](m2-01-the-over-privileged-user.md) | ✅ |
 | 02 | [The Forgotten Access Key](m2-02-the-forgotten-access-key.md) | ✅ |
 | 03 | [The Overpowered Role](m2-03-the-overpowered-role.md) | ✅ |
@@ -45,6 +45,30 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 
 > [!NOTE]
 > **Module 2 complete — 4/4 rooms.** Arc: over-privileged users → forgotten keys → overpowered roles → detection. Each room built on a real breach (Code Spaces, Uber, Capital One, Ubiquiti).
+
+## Module 3 · Network and Perimeter Defense
+
+> A single misconfigured rule can expose an entire AWS environment. Identify and close the network-level gaps that attackers use to gain a foothold.
+
+| #  | Room | Status |
+| --- | ---- | ------ |
+| 01 | [The Wide-Open Security Group](m3-01-the-wide-open-security-group.md) | ✅ |
+| 02 | [The Not So Private Subnet](m3-02-the-not-so-private-subnet.md) | ✅ |
+| 03 | [The Forgotten NACL](m3-03-the-forgotten-nacl.md) | ✅ |
+| 04 | [The Invisible Network](m3-04-the-invisible-network.md) | ✅ |
+
+> [!NOTE]
+> **Module 3 complete — 4/4 rooms.** Layered defence: Security Groups (host) → route tables (public/private routing) → NACLs (subnet perimeter) → Flow Logs (visibility). Each room built on a real breach (MongoDB Apocalypse, Tesla, SCARLETEEL, Marriott).
+
+## Module 4 · Securing Compute
+
+> Compute resources are a prime target in the cloud. From exposed ports to unpatched instances, recognize and remediate the threats targeting AWS workloads.
+
+| #  | Room | Status |
+| --- | ---- | ------ |
+| 01 | [The Exposed Port](m4-01-the-exposed-port.md) | ✅ |
+| 02 | [The Unpatched Instance](m4-02-the-unpatched-instance.md) | ✅ |
+| — | *(more rooms in progress)* | ⬜ |
 
 ## Running theme so far
 
