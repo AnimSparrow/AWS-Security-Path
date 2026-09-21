@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/review-banner.svg" width="820" alt="Defending AWS — Review">
+  <img src="assets/review-banner.svg" width="820" alt="Defending AWS - Review">
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 ## Overview
 
 > [!NOTE]
-> **TL;DR** — A well-sequenced, incident-driven intro to defending AWS across IAM, networking, compute, and storage. The real-world breach framing in every room is genuinely strong. The labs are the weak part: nearly every remediation hands you the exact commands to paste, then a verifier Lambda hands back a flag, so there's almost no investigation or problem-solving. Solid as bundled learning for a newcomer to cloud defense. Hard to justify as a standalone paid product, and trivially easy for anyone past beginner.
+> **TL;DR** - A well-sequenced, incident-driven intro to defending AWS across IAM, networking, compute, and storage. The real-world breach framing in every room is genuinely strong. The labs are the weak part: nearly every remediation hands you the exact commands to paste, then a verifier Lambda hands back a flag, so there's almost no investigation or problem-solving. Solid as bundled learning for a newcomer to cloud defense. Hard to justify as a standalone paid product, and trivially easy for anyone past beginner.
 
 <p align="center">
   <img src="assets/review-scorecard.svg" width="780" alt="S.P.A.R.R.O.W. scorecard, overall 4.54 out of 10">
