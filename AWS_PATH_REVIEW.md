@@ -97,11 +97,7 @@ Do it if it's already in your subscription and you want a clean, incident-driven
 ## Certificate
 
 <p align="center">
-  <img src="assets/certificate.png" width="700" alt="Defending AWS Learning Path certificate">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/THM--N3BWKKBFXI-1a0633?style=for-the-badge&labelColor=00F0FF">
+  <img src="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-N3BWKKBFXI.png" width="700" alt="Defending AWS Learning Path certificate">
 </p>
 
 ### My Result
