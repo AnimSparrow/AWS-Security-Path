@@ -10,10 +10,13 @@
 
 ---
 
-Notes and solutions from the TryHackMe **AWS** security path — one `.md` per room. Each writeup carries a short TL;DR, the key concepts worth keeping, a per-lab walkthrough where relevant, and the task answers.
+Notes and solutions from the TryHackMe **Defending AWS** learning path — one `.md` per room. Each writeup carries a short TL;DR, the key concepts worth keeping, a per-lab walkthrough where relevant, and the task answers.
 
 > [!NOTE]
 > Flags are **masked** on purpose (portfolio etiquette + platform rules). The reasoning is the point, not the copy-paste.
+
+> [!TIP]
+> Read the honest **[S.P.A.R.R.O.W. review of this path](AWS_PATH_REVIEW.md)** (scored **4.54 / 10**) for whether it's worth your time.
 
 ## Module 1 · Welcome to AWS
 
@@ -62,15 +65,33 @@ Notes and solutions from the TryHackMe **AWS** security path — one `.md` per r
 
 ## Module 4 · Securing Compute
 
-> Compute resources are a prime target in the cloud. From exposed ports to unpatched instances, recognize and remediate the threats targeting AWS workloads.
+> Compute resources are a prime target in the cloud. From exposed ports to container misconfigurations, recognize and remediate the threats targeting AWS workloads.
 
 | #  | Room | Status |
 | --- | ---- | ------ |
 | 01 | [The Exposed Port](m4-01-the-exposed-port.md) | ✅ |
 | 02 | [The Unpatched Instance](m4-02-the-unpatched-instance.md) | ✅ |
-| — | *(more rooms in progress)* | ⬜ |
+| 03 | [The Leaky Metadata](m4-03-the-leaky-metadata.md) | ✅ |
+| 04 | [The Oversharing Container](m4-04-the-oversharing-container.md) | ✅ |
 
-## Running theme so far
+> [!NOTE]
+> **Module 4 complete — 4/4 rooms.** Arc: exposed port → patch debt → IMDS credential theft → container identity. Each room built on a real breach (TeamTNT, WannaCry, Shopify SSRF, Hildegard).
+
+## Module 5 · Storage and Data Security
+
+> Data breaches often begin with a misconfigured bucket or an exposed snapshot. Secure AWS storage and prevent sensitive data from reaching the wrong hands.
+
+| #  | Room | Status |
+| --- | ---- | ------ |
+| 01 | [The Leaky Bucket](m5-01-the-leaky-bucket.md) | ✅ |
+| 02 | [The Plain Bucket](m5-02-the-plain-bucket.md) | ✅ |
+| 03 | [The Blind Bucket](m5-03-the-blind-bucket.md) | ✅ |
+| 04 | [The Shared Snapshot](m5-04-the-shared-snapshot.md) | ✅ |
+
+> [!NOTE]
+> **Module 5 complete — 4/4 rooms.** S3 confidentiality (Leaky) → encryption boundary (Plain) → object-level visibility (Blind) → EBS snapshots (Shared). Each room built on a real breach (Verizon/Pegasus, LastPass, Chegg, Bishop Fox DEF CON).
+
+## Running theme
 
 Every room reinforces the same core idea: in the cloud, **identity, data, and configuration are always yours to secure**. Least privilege caps the blast radius; explicit deny wins every evaluation; and a leaked credential turns identity into the perimeter.
 
