@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250" width="780" height="250" role="img" aria-label="SPARROW scorecard, overall 4.54 out of 10">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a0633"/><stop offset="100%" stop-color="#3a0a5e"/></linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00F0FF"/><stop offset="100%" stop-color="#00B8D4"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>text{font-family:ui-monospace,'SF Mono',Menlo,'Cascadia Code',Consolas,monospace}</style>
+  <rect x="0.5" y="0.5" width="779" height="249" rx="16" fill="url(#bg)" stroke="#FF2A6D" stroke-opacity="0.30"/>
+  <path d="M 16,1 L 84,1 L 16,69 Z" fill="#FF2A6D" opacity="0.10"/>
+
+  <!-- Left block: overall -->
+  <g transform="translate(28,34)">
+    <rect x="0" y="0" width="150" height="20" rx="5" fill="#FF2A6D" fill-opacity="0.12" stroke="#FF2A6D" stroke-opacity="0.5"/>
+    <text x="75" y="14" fill="#FF2A6D" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">OVERALL SCORE</text>
+    <text x="0" y="86" fill="url(#hero)" font-size="64" font-weight="700" filter="url(#glow)">4.54</text>
+    <text x="150" y="86" fill="#A479C4" font-size="20" font-weight="700" text-anchor="end">/10</text>
+    <text x="0" y="118" fill="#A479C4" font-size="9" font-weight="600" letter-spacing="1.5">WEIGHTED &#183; 6:2:1</text>
+    <text x="0" y="140" fill="#FF2A6D" font-size="9" font-weight="700" letter-spacing="1">HIGH  &#215;6</text>
+    <text x="0" y="158" fill="#A479C4" font-size="9" font-weight="700" letter-spacing="1">MEDIUM &#215;2</text>
+    <text x="0" y="176" fill="#00F0FF" font-size="9" font-weight="700" letter-spacing="1">LOW  &#215;1</text>
+  </g>
+
+  <!-- divider -->
+  <rect x="216" y="30" width="1" height="190" fill="#5C2A8A" opacity="0.6"/>
+
+  <g transform="translate(248,60)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">S</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">SCOPE</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="208" height="7" rx="3.5" fill="#A479C4"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">8</text>
+  </g>
+  <g transform="translate(248,87)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">P</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">PRACTICALITY</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="104" height="7" rx="3.5" fill="#FF2A6D"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">4</text>
+  </g>
+  <g transform="translate(248,114)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">A</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">ACCESS</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="182" height="7" rx="3.5" fill="#00F0FF"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">7</text>
+  </g>
+  <g transform="translate(248,141)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">R</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">RELIABILITY</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="208" height="7" rx="3.5" fill="#00F0FF"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">8</text>
+  </g>
+  <g transform="translate(248,168)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">R</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">RIGOR</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="156" height="7" rx="3.5" fill="#A479C4"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">6</text>
+  </g>
+  <g transform="translate(248,195)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">O</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">OUTCOME</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="78" height="7" rx="3.5" fill="#FF2A6D"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">3</text>
+  </g>
+  <g transform="translate(248,222)">
+    <text x="0" y="0" fill="#F8E8FF" font-size="13" font-weight="700">W</text>
+    <text x="18" y="0" fill="#A479C4" font-size="9.5" font-weight="600" letter-spacing="0.5">WORTH</text>
+    <rect x="140" y="-9" width="260" height="7" rx="3.5" fill="#2a0e4a"/>
+    <rect x="140" y="-9" width="104" height="7" rx="3.5" fill="#FF2A6D"/>
+    <text x="416" y="0" fill="#F8E8FF" font-size="11" font-weight="700" text-anchor="start">4</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(248,246)">
+    <rect x="0" y="-12" width="10" height="7" rx="2" fill="#FF2A6D"/><text x="15" y="-6" fill="#A479C4" font-size="8.5" font-weight="600">HIGH &#215;6</text>
+    <rect x="86" y="-12" width="10" height="7" rx="2" fill="#A479C4"/><text x="101" y="-6" fill="#A479C4" font-size="8.5" font-weight="600">MEDIUM &#215;2</text>
+    <rect x="190" y="-12" width="10" height="7" rx="2" fill="#00F0FF"/><text x="205" y="-6" fill="#A479C4" font-size="8.5" font-weight="600">LOW &#215;1</text>
+  </g>
+</svg>
